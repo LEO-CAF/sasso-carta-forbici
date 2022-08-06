@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Sasso-Carta-Forbici</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Sasso-Carta-Forbici</h1>
+
+        <h2>Mossa Player</h2>
+
+        <input type="radio" name="scelta" value="s"><span>Sasso</span>
+        <input type="radio" name="scelta" value="c"><span>Carta</span>
+        <input type="radio" name="scelta" value="f"><span>Forbici</span>
+
+        <h2>Mossa Computer</h2>
+
+        <h3 id="mossa_computer">- - -</h3>
+
+        <button type="button" onclick="game()">Gioca</button>
+
+        <button type="button" onclick="azzera()">Azzera Punteggi</button>
+
+        <p id="score_player">Punteggio Player: 0</p>
+        <p id="score_computer">Punteggio Computer: 0</p>
+        <p id="pareggio">Pareggio: 0</p>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
